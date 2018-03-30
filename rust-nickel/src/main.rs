@@ -5,5 +5,5 @@ use nickel::{Nickel, HttpRouter};
 fn main() {
     let mut server = Nickel::new();
     server.get("**", middleware!("Hello World"));
-    server.listen("127.0.0.1:8080");
+    server.listen("0.0.0.0:8080");
 }

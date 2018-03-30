@@ -25,7 +25,7 @@ pub fn say_hello(state: State) -> (State, Response) {
 
 /// Start a server and call the `Handler` we've defined above for each `Request` we receive.
 pub fn main() {
-    let addr = "127.0.0.1:8080";
+    let addr = "0.0.0.0:8080";
     println!("Listening for requests at http://{}", addr);
     gotham::start(addr, || Ok(say_hello))
 }
