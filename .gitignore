@@ -1,6 +1,7 @@
 node_modules
 .idea
 __pycache__
+Cargo.lock
 target
 out
 classes

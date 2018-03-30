@@ -3,5 +3,5 @@ name = "rust"
 version = "0.1.0"
 authors = ["陈海峰 <m@cheft.cn>"]
 
-[dependencies]
-tiny_http = "0.5"
+[dependencies.nickel]
+git = "https://github.com/nickel-org/nickel.rs.git"

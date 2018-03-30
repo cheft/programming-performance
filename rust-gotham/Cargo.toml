@@ -1,0 +1,10 @@
+[package]
+name = "gotham"
+version = "0.1.0"
+authors = ["cheft <m@cheft.cn>"]
+
+[dependencies]
+gotham = "0.2.0"
+hyper = "0.11"
+futures = "0.1"
+mime = "0.3"

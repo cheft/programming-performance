@@ -1,0 +1,7 @@
+[package]
+name = "actix"
+version = "0.1.0"
+authors = ["cheft <m@cheft.cn>"]
+
+[dependencies]
+actix-web = "0.4.10"
